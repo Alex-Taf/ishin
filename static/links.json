@@ -1,0 +1,52 @@
+{
+    "items": [
+        {
+            "title": "BBC Learning English",
+            "link": "http://www.bbc.co.uk/worldservice/learningenglish/",
+            "popper": {
+                "show": false,
+                "content": "Ресурс, содержащий огромное количество материала, которое поможет любому, кто учит язык."
+            }
+        },
+        {
+            "title": "Business English",
+            "link": "https://www.businessenglishpod.com/",
+            "popper": {
+                "show": false,
+                "content": "Подкасты для изучения делового английского."
+            }
+        },
+        {
+            "title": "English as Second Language",
+            "link": "https://www.eslpod.com/index.html",
+            "popper": {
+                "show": false,
+                "content": "Большое количество специально подобранных подкастов. Для их прослушивания используется специальная методика."
+            }
+        },
+        {
+            "title": "Wordz",
+            "link": "https://gdzrak.com/anglijskij-yazyk-1-11-klass-gdz",
+            "popper": {
+                "show": false,
+                "content": "Сайт, помогающий расширить словарный запас."
+            }
+        },
+        {
+            "title": "Kwiz Me",
+            "link": "www.kwiz.me",
+            "popper": {
+                "show": false,
+                "content": "Специальный ресурс для изучения наиболее часто встречающихся слов."
+            }
+        },
+        {
+            "title": "Anki",
+            "link": "https://apps.ankiweb.net/",
+            "popper": {
+                "show": false,
+                "content": "Программа, заменяющая бумажные карточки."
+            }
+        }
+    ]
+}

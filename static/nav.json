@@ -1,0 +1,20 @@
+{
+  "items": [
+    {
+      "title": "Главная",
+      "link": "/"
+    },
+    {
+      "title": "Обо мне",
+      "link": "/about"
+    },
+    {
+      "title": "Портфолио",
+      "link": "/portfolio"
+    },
+    {
+        "title": "Полезные ссылки",
+        "link": "/links"
+    }
+  ]
+}

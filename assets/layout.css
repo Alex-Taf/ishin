@@ -1,0 +1,94 @@
+/* Base */
+@font-face {
+    font-family: 'Comfortaa Light';
+    src: url('static/Comfortaa-Light.ttf') format('truetype');
+    font-weight: lighter;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Comfortaa Medium';
+    src: url('static/Comfortaa-Medium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Comfortaa Regular';
+    src: url('static/Comfortaa-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Comfortaa Semibold';
+    src: url('static/Comfortaa-SemiBold.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Comfortaa Bold';
+    src: url('static/Comfortaa-Bold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+:root {
+    --popper-theme-background-color: #ffffff;
+    --popper-theme-background-color-hover: #ffffff;
+    --popper-theme-text-color: #333333;
+    --popper-theme-border-width: 0px;
+    --popper-theme-border-style: solid;
+    --popper-theme-border-radius: 6px;
+    --popper-theme-padding: 32px;
+    --popper-theme-box-shadow: 0 6px 30px -6px rgba(0, 0, 0, 0.25);
+}
+
+body {
+    font-family: 'Comfortaa Regular';
+}
+
+/* Animations */
+.animation-1 {
+    animation: slide 1s;
+    @apply transition
+}
+
+.animation-2 {
+    animation: printed-text 2s steps(31, end);
+    @apply whitespace-nowrap overflow-hidden transition
+}
+
+.animation-3 {
+    animation: printed-text 3s steps(31, end);
+    @apply whitespace-nowrap overflow-hidden transition
+}
+
+.animation-4 {
+    border-right: .15em solid white;
+    letter-spacing: .15em;
+    animation: printed-text 4s steps(10, end), blink-caret .75s step-end infinite;
+    @apply whitespace-nowrap overflow-hidden transition
+}
+
+@keyframes slide {
+    0% {
+        transform: translateY(200px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+@keyframes printed-text {
+    from { width: 0; }
+    to { width: 100%; }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: white; }
+}
